@@ -1,0 +1,19 @@
+body, section, h1, h2{
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+.title{
+  font-size: 3rem;
+  font-family: $lato;
+}
+.description{
+  font-size: 1rem;
+  font-family: $sans_pro;
+}
+section{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}

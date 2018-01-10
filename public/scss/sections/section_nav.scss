@@ -1,0 +1,29 @@
+#nav{
+  position: absolute;
+  left: auto;
+  right: 0;
+  top:0.5rem;
+  ul{
+    display: flex;
+    list-style-type: none;
+    margin: 20px;
+    padding: 5px;
+    li{
+      margin: 10px;
+      background-color: black;
+      a{
+        color: $white;
+        text-decoration: none;
+      }
+      font-family: $sans_pro;
+      text-transform: uppercase;
+    }
+  }
+  &.stick{
+    position: fixed;
+    top:-3rem;
+    background-color: black;
+    padding-bottom: 0;
+    z-index: 1;
+  }
+}

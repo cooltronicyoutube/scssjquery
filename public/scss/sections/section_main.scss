@@ -1,0 +1,21 @@
+#main{
+  display: flex;
+  background-image: url("../img/main.jpg");
+  background-position: center;
+  background-size: cover;
+  flex-direction: column;
+  color: $white;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+  .title{
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 1), 0px 0px 7px rgba(0, 0, 0, 1);;
+    color: $white;
+  }
+  .description{
+    max-width: 800px;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 1);
+    color: $white;
+    text-align: center;
+  }
+}
